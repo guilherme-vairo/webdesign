@@ -5,9 +5,18 @@
 	padding: 0;
 }
 
+.container {
+  position: relative;
+  overflow: auto;
+  /*background-color: rgba(0, 0, 0, 0.05);*/
+}
+
+.container .content {
+
+}
+
 #CL-container {
-	padding-top: 15px;
-	padding-bottom: 15px;
+	height: calc(100vh - 1.5rem);
 }
 
 #CL-logo{
@@ -17,8 +26,13 @@
 	font-weight: 900;
 }
 
-#navbarTogglerDemo03 {
+}
+.navbar-light .navbar-nav .active > .nav-link {
+	color: blueviolet !important;
+}
 
+.fas {
+	color: blueviolet;
 }
 
 menu {
@@ -33,10 +47,8 @@ menu {
 menu li {
 	display: block;
 	list-style: none;
-}
-menu li.current a {
-	color: black;
-}
+
+
 menu li > a {
 	color: white;
 	display: block;
@@ -46,18 +58,6 @@ menu li > a {
 	padding-left: 0 !important; 
 	padding-right: 2rem !important;
 	margin: 0;
-}
-menu a:hover {
-	color: black;
-}
-menu span {
-	background-color: black;
-	display: block;
-	height: 6px;
-	left: 0;
-	position: absolute;
-	top: 80%;
-	transition: left 300ms, width 300ms;
 }
 
 #CL-capa1 {

@@ -25,4 +25,3 @@ $menu.find('a').hover(
     slider();
   }
 );
-  
