@@ -11,8 +11,6 @@
 	<!-- Bootstrap 4.1.0 -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
-	<link rel="stylesheet" href="css/animate.css">
-
 	<!-- Perfect Scrollbar -->
 	<link href="perfect-scrollbar.css" rel="stylesheet">
 
@@ -26,8 +24,10 @@
 </head>
 <body>
 
-	<div class="container">
-		<nav class="navbar navbar-expand-lg navbar-light">
+	<div id="CL-container" class="container d-flex mt-4 flex-column">
+		
+		<nav class="navbar navbar-expand-lg navbar-light p-0">
+			
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -55,25 +55,29 @@
 				</menu>
 			</div>
 		</nav>
-	</div>
-	
-	<div id="CL-container" class="container d-flex flex-column animated fadeIn">
-		<div id="CL-card" class="row p-3 CL-content py-lg-5">
-			<div class="col-lg-5 offset-lg-1 col-sm-12 py-5 py-md-1">
-				<img class="SVGcontainer d-block mx-auto animated fadeInDown" src="Graphics/3x/aulas 1@3x.png" alt="">
+
+		<div class="row py-5 px-2 text-center">
+			<div class="col-lg-4 col-sm-8 offset-lg-0 offset-sm-2">
+				<h1><i class="fas fa-search"></i></h1>
+				<h3>Revisão de Texto</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 			</div>
-			<div class="col-lg-5 col-sm-8 offset-lg-0 offset-sm-2 py-md-4 text-center text-lg-left">
-				<h1><i class="animated fadeInUp fas fa-search AniA"></i></h1>
-				<h3 class="animated flipInX AniB">Revisão de Texto</h3>
-				<p class="animated flipInX AniC">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-				<h1><i class="animated fadeInUp fas fa-indent AniD"></i></h1>
-				<h3 class="animated flipInX AniE">Formatação</h3>
-				<p class="animated flipInX AniF">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-				<h1><i class="animated fadeInUp fas fa-pencil-alt AniG"></i></h1>
-				<h3 class="animated flipInX AniH">Produção de Texto</h3>
-				<p class="animated flipInX AniI">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			<div class="col-lg-4 col-sm-8 offset-lg-0 offset-sm-2">
+				<h1><i class="fas fa-indent"></i></h1>
+				<h3>Formatação</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
+			<div class="col-lg-4 col-sm-8 offset-lg-0 offset-sm-2">
+				<h1><i class="fas fa-pencil-alt"></i></h1>
+				<h3>Produção de Texto</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
+		</div>
+		<hr>
+		<div class="row py-5 px-2">
+			<div class="col-md">
+					<h2>Título h1</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</div>
 		</div>
 	</div>
