@@ -28,6 +28,9 @@ font-size: 0.93rem !important;
 	.ser-fas.fas {
 	font-size: 3rem !important;
 	}
+	.contato-h2 {
+	margin-left: 36px !important;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -37,6 +40,9 @@ font-size: 0.93rem !important;
 	.ser-fas.fas {
 	font-size: 3rem !important;
 	}
+	.contato-h2 {
+	margin-left: 32px !important;
+	}
 }
 
 @media (min-width: 992px) {
@@ -45,6 +51,9 @@ font-size: 0.93rem !important;
 	}
 	.ser-fas.fas {
 	font-size: 2rem !important;
+	}
+	.contato-h2 {
+	margin-left: 25px !important;
 	}
 }
 
