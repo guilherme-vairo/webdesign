@@ -1,0 +1,38 @@
+.timeline-item {
+  padding: 4em 2em 2em;
+  margin-left: 1em;
+  position: relative;
+  border-left: 6px solid	rgb(154, 13, 255, 1);
+}
+.timeline-item p {
+  font-size: 1rem;
+}
+.timeline-item::after {
+  content: attr(date-is);
+  position: absolute;
+  left: -1.3em;
+  font-weight: bold;
+  top: 0.2em;
+  display: block;
+  font-weight: 900;
+  font-size: 1.62em;
+  letter-spacing: 0.1em;
+}
+.timeline-item::before {
+  width: 9em;
+  height: 3em;
+  display: block;
+  top: -0.1em;
+  position: absolute;
+  left: -3.3em;
+  content: '';
+  background: rgb(255, 250, 0, 1);
+  border: 6px solid white;
+}
+
+.timeline-item:last-child {
+-o-border-image: linear-gradient(to bottom, rgb(154, 13, 255, 1) 60%, rgba(154, 13, 255, 0)) 1 100%;
+    
+border-image: linear-gradient(to bottom, rgb(154, 13, 255, 1) 60%, rgba(154, 13, 255, 0)) 1 100%;
+}
+  
